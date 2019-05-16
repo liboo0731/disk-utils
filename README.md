@@ -1,34 +1,22 @@
 ### 介绍
 
-Linux下磁盘分区检测工具，根据第一扇区中的特殊值来判断磁盘分区。
+Linux下磁盘简单操作工具。
 
 ### 使用
 
 ```shell
-[root@localhost ~]# python disk-utils.py
+[root@host-172-16-2-221 disk-utils-1.0.0]# infodisk 
 
 Useage:
- python disk-utils.py /dev/sda
+ infodisk options [disk]
+ infodisk -m disk point type
+Options
+ -l    List all disks
+ -e    List all empty disks
+ -t    Get disk partition type
+ -u    Get partition UUID
+ -m    Set partition to mount automatically
 
-Show all disk:
-/dev/sda
-/dev/sdb
-/dev/sdc
-```
 
-### 示例
-
-```shell
-[root@localhost ~]#  python disk-utils.py /dev/sda
-/dev/sda : mbr
-
-[root@localhost ~]#  python disk-utils.py /dev/sdb
-/dev/sdb : gpt
-
-[root@localhost ~]#  python disk-utils.py /dev/sdc
-/dev/sdc : unkown
-
-[root@localhost ~]#  python disk-utils.py /dev/sde
-/dev/sde : error
 ```
 
