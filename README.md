@@ -13,5 +13,7 @@ Linux下磁盘简单操作工具。
 
 
 
-![disk-utils-demo.png](disk-utils-demo.png)
+![infodisk.png](infodisk.png)
+
+
 
