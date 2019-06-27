@@ -2,21 +2,16 @@
 
 Linux下磁盘简单操作工具。
 
+1. 磁盘详细信息罗列
+2. 未使用磁盘信息罗列
+3. 磁盘分区类型查询
+4. 磁盘分区UUID查询
+5. 磁盘格式化
+6. 自动挂载
+
 ### 使用
 
-```shell
-[root@host-172-16-2-221 disk-utils-1.0.0]# infodisk 
-
-Useage:
- infodisk options [disk]
- infodisk -m disk point type
-Options
- -l    List all disks
- -e    List all empty disks
- -t    Get disk partition type
- -u    Get partition UUID
- -m    Set partition to mount automatically
 
 
-```
+![disk-utils-demo.png](disk-utils-demo.png)
 
